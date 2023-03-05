@@ -1,0 +1,28 @@
+BML
+6 5
+1:*
+2:9
+3:9
+4:9
+5:9
+6:*
+1:10.00000000 2.00000000 1.000 1 2
+2:5.00000000 2.00000000 1.000 2 3
+3:4.00000000 2.00000000 1.000 3 4
+4:3.33333333 2.00000000 1.000 4 5
+5:2.8571428 2.00000000 1.000 5 6
+BTF
+0 0 0 0 0 0 0 0 0 
+revenue per item
+pl 1
+0 0 10
+amortization period
+1
+inventory cost coefficient
+0.001
+buffer space allocation cost
+pl 2
+0 0 0
+10 10000 10000
+solution list capacity
+0 0

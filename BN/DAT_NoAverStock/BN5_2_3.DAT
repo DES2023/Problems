@@ -1,0 +1,43 @@
+definition;
+places;
+1:*;
+2:20;
+3:20;
+4:20;
+5:20;
+6:*;
+transitions;
+1:10.00000000,2.50000000;
+2:10.00000000,2.50000000;
+3:10.00000000,2.50000000;
+4:10.00000000,2.50000000;
+5:10.00000000,2.50000000;
+end;
+connect;
+enters;
+t1<=p1:0.50000000;
+t2<=p2:0.5000000;
+t3<=p3:0.25000000;
+t4<=p4:0.25000000;
+t5<=p5:0.250000000;
+exits;
+t1=>p2:0.50000000;
+t2=>p3:0.5000000;
+t3=>p4:0.25000000;
+t4=>p5:0.25000000;
+t5=>p6:0.250000000;
+end;
+end.
+costs of parts in buffers
+6
+0 0 0 0 0 0 
+revenue per item
+pl 1
+0 0 2.09366300
+inventory cost coefficient
+0.00100000
+amortization period
+7000
+buffer space allocation cost
+pl 1
+0 0 10
